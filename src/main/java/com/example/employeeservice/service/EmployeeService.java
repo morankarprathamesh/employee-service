@@ -44,9 +44,12 @@ public class EmployeeService {
         );
     }
 
-    public List<Employee> getAllEmployees() {
-        return employeeRepository.findAll();
-    }
+
+        public List<Employee> getAllEmployees() {
+            log.info("Fetching all employees");
+            return employeeRepository.findAll();
+        }
+
 
     public EmployeeResponse getEmployeeById(Long id) {
 
