@@ -46,7 +46,7 @@ public class EmployeeService {
 
 
         public List<Employee> getAllEmployees() {
-            log.info("Fetching all employees");
+            log.info("Fetching all employees from database");git status
             return employeeRepository.findAll();
         }
 
