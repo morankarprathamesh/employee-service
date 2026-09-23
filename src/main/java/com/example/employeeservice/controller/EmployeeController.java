@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/employees")
 public class EmployeeController {
-
+    // Employee search feature - development in progress
     private final EmployeeService employeeService;
 
     public EmployeeController(EmployeeService employeeService) {
